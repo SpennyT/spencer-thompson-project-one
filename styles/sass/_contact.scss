@@ -1,0 +1,142 @@
+
+.contactNav {
+    background-color: #345231;
+    height: 70px;
+    margin-top: 0px;
+    padding: 5%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.contactFull {
+    background-color: #f6f6f6;
+}
+
+.banner {
+    height: 40vh;
+    background-image: url("../assets/contact-image-1.jpg");
+    background-size: cover;
+    position: relative;
+    
+
+    .contactTitle {
+        font-size: 6rem;
+        position: absolute;
+        bottom: -13px;
+        color: #f6f6f6;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+
+
+.parent {
+
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
+    .contactInfo{
+        width: 32%;
+    }
+
+    .contactForm {
+        width: calc(100% - 32% - 4%);
+    }
+}
+
+.contactInfo {
+    background-color: #FFFFFF;
+
+    .socialList {
+        margin: 10% 10% 0;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .socialItem {
+            margin-right: 10%;
+
+            .socialLink {
+                font-size: 2.5rem;
+                color: #345231;
+            }
+
+        }
+    }
+
+    .contactList {
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+
+        .contactItem {
+            margin-bottom: 1%;
+
+        }
+        .boldEmail a {
+            font-weight: bold;
+        }
+        li {
+            margin: 0;
+            padding: 5px;
+        }
+
+    }
+}
+
+.contactList a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    text-transform: none;
+    
+}
+
+.submissionForm {
+    display: flex;
+    flex-flow: row wrap;   
+    
+    .nameInput {
+        font-weight: 400;
+        border: none;
+        width: 48%;
+        margin-right: 2%;
+        padding: 3%;
+    }
+
+    .emailInput {
+        border: none;
+        width: 50%;
+        padding: 3%;
+    }
+
+    .textInput {
+        resize: none;
+        border: none;
+        margin: 2% auto;
+        width: 100%;
+        padding: 5% 2% 0%;
+    }
+
+    }
+
+textarea, input {
+    font-size: 2rem;
+}
+
+button {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+}

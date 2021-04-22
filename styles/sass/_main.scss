@@ -1,0 +1,236 @@
+.indexHeader {
+    background-color: #345231;
+    height: 650px;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.whos {
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+}
+
+.whos h2 {
+    margin-bottom: 0;
+}
+
+// .whos p {
+//     margin: 20px;
+// }
+
+.info {
+    background-color: #f6f6f6;
+    padding: 5% 0 10%;
+}
+main h1 {
+    margin: 0;
+}
+
+.button {
+    background: #E4A436;
+    padding: 10px 20px;
+    display: block;
+}
+
+.favAndBucket {
+    background-color: #FFFFFF;
+}
+
+.favAndBucket h3 {
+    margin-bottom: 0;
+}
+
+.favThings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.favThingsBox {
+    width: 50%;
+    position: relative;
+}
+
+.favImage {
+    box-shadow: 20px 20px #709B6B, -300px 20px #709B6B;
+    position: absolute;
+    bottom: 9%;
+    z-index: 3;
+    object-fit: cover;
+    width: 100%;
+}
+
+.favParagraph {
+    width: 40%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.bucketList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.bucketBox {
+    width: 50%;
+    position: relative;
+}
+
+.bucketImage {
+    box-shadow: 20px 20px #345231, 300px 20px #345231;
+    position: absolute;
+    top: 25%;
+    z-index: 3;
+    object-fit: cover;
+    width: 100%;
+}
+
+.bucketParagraph {
+    width: 40%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: right;
+    text-align: right;
+    position: relative;
+
+        .button {
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+        }
+}
+
+.journey {
+    background-color: #f6f6f6;
+    padding: 10% 0 8%;
+}
+
+.journeyBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.journeyImageBox {
+    width: 23%;
+    margin-right: 12%;
+}
+
+.journeyImage {
+    box-shadow: 20px 20px #709B6B;
+}
+
+.journeyParagraph {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+    h2 {
+        margin: 0;
+    }
+
+    .button {
+        margin-top: 2%;
+    }
+}
+
+.midSectionPhoto {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.galleryImage {
+    object-fit: cover;
+    width: 30%;
+}
+
+
+.secondNav {
+    background-color: #f6f6f6;
+    padding: 5% 0 2%;
+}
+
+.secondNavBox {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navChoice {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+
+        .navIconBox {
+            width: 10%;
+            height: 100%;
+        }
+    
+        .navIcon {
+            background-color: #E4A436;
+            color: black;
+            font-size: 2.0rem;
+            padding: 20%;
+            border-radius: 50%;
+        }
+
+        .navParagraph {
+            width: 90%;
+
+            h3 {
+                margin-top: 0;
+                padding-top: 0;
+            }
+        
+        }
+
+
+
+footer {
+    background-color: black;
+    color: #f6f6f6;
+
+    .copyright {
+        color: #f6f6f6;
+        text-align: center;
+        padding: 0.5% 0;
+    }
+}

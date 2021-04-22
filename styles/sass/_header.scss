@@ -1,0 +1,66 @@
+
+
+
+ul {
+  padding: 0;
+  margin: auto;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+    padding: 20px;
+}
+
+nav a:hover, nav h2:hover{
+    color: #efa436;
+}
+
+.frontPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    
+}
+
+.siteTitle {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin-right: 20px;
+    padding-right: 0px;
+    margin-top: 100px;
+}
+
+.siteTitle::before {
+    content: url('../assets/circle-text.png');
+    // display: block;
+    position: absolute;
+    left: -40px;
+    top: -20px;
+}
+
+.titleBox {
+    width: 70%;
+    position: relative;
+    z-index: 5;
+}
+
+.headerPhotoBox {
+    width: 35%;
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 0%; 
+}
+
+.headerPhoto {
+    box-shadow: 20px 20px #FFFFFF;
+    width: 100%;
+    object-fit: cover;
+}
