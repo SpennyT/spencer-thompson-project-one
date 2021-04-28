@@ -16,12 +16,26 @@
     <header class="indexHeader">
         <div class="wrapper">
             <nav>
-                <ul class = "wrapper">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><h2>Willow</h2></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                <ul class = "wrapper navBar horizontal">
+                    <li class = "navItem"><a href="./index.html">Home</a></li>
+                    <li class = "navItem"><a href="">About</a></li>
+                    <li class = "navItem"><h2>Willow</h2></li>
+                    <li class = "navItem"><a href="./blog.html">Blog</a></li>
+                    <li class = "navItem"><a href="./contact.html">Contact</a></li>
+                    <li class="navHamburger">
+                        <div class="hamburgerLine"></div>
+                        <div class="hamburgerLine"></div>
+                        <div class="hamburgerLine"></div>
+                    </li>
+                </ul>
+                <ul class="navBar vertical">
+                    <li class="navItem"><a href="./index.html">Home</a></li>
+                    <li class="navItem"><a href="">About</a></li>
+                    <li class="navItem">
+                        <h2>Willow</h2>
+                    </li>
+                    <li class="navItem"><a href="./blog.html">Blog</a></li>
+                    <li class="navItem"><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
             <div class="frontPage">
@@ -154,3 +168,19 @@
     </main>
 </body>
 </html>
+
+<script>
+    const navHamburger = document.querySelector('.navHamburger');
+    const verticalMenu = document.querySelector('.vertical');
+
+    function toggleMenu() {
+        if (verticalMenu.style.display === "flex") {
+            verticalMenu.style.display = "none";
+        } else {
+            verticalMenu.style.display = "flex";
+        }
+    };
+
+    navHamburger.addEventListener('click', toggleMenu);
+
+</script>

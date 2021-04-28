@@ -835,6 +835,60 @@ button {
   width: 100%;
 }
 
+.hamburgerLine {
+  background-color: #F6F6F6;
+  width: 35px;
+  height: 8px;
+  border-radius: 2px;
+  margin: 6px 0;
+}
+
+.navHamburger {
+  display: none;
+}
+
+.vertical {
+  display: none;
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 0;
+  margin-top: 90px;
+}
+
+.vertical li {
+  padding: 5px;
+}
+
+.vertical h2 {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .navBar {
+    position: relative;
+  }
+  .navHamburger {
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 20px;
+    z-index: 20;
+  }
+  .horizontal .navItem {
+    display: none;
+  }
+  .headerPhoto {
+    display: none;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
